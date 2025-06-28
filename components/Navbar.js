@@ -21,7 +21,7 @@ export default function Navbar() {
                         <h4 className="text-xl sm:text-2xl font-bold tracking-wide leading-7">
                             Timeless Tile Restoration
                         </h4>
-                        <p className="text-xs text-warning">TAG LINE HERE</p>
+                        <p className="text-xs">Restoring & Revitalising Vintage Tiles</p>
                     </div>
                 </div>
 
