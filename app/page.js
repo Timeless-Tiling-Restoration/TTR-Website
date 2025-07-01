@@ -3,6 +3,7 @@ import fs from 'fs';
 
 import Header from '../components/Header';
 import Timeline from '../components/Timeline';
+import FAQ from '../components/Faq';
 import Gallery from '../components/Gallery';
 
 export default function HomePage() {
@@ -23,6 +24,7 @@ export default function HomePage() {
       <Header />
       <Timeline />
       <Gallery images={images} />
+      <FAQ />
     </main>
   );
 }
