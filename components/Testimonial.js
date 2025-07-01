@@ -55,10 +55,10 @@ export default function Testimonial() {
 
       <div className="container mx-auto px-4 text-center relative">
 
-        <h2 className="text-3xl md:text-5xl font-bold mb-4 text-accent">
+        <h2 className="font-heading mb-6 text-4xl md:text-5xl tracking-tight text-primary">
           What Our Customer Had to Say...
         </h2>
-        <p className="text-lg md:text-xl mb-6">
+        <p className="mb-5 font-bold">
           Excepteur enim eiusmod id ex minim proident magna culpa ipsum.
         </p>
 
