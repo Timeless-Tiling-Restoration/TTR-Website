@@ -3,8 +3,9 @@ import fs from 'fs';
 
 import Header from '../components/Header';
 import Timeline from '../components/Timeline';
-import FAQ from '../components/Faq';
 import Gallery from '../components/Gallery';
+import FAQ from '../components/Faq';
+import Testimonial from '../components/Testimonial';
 
 export default function HomePage() {
   const imagesDir = `${process.cwd()}/public/images/photos`;
@@ -25,6 +26,7 @@ export default function HomePage() {
       <Timeline />
       <Gallery images={images} />
       <FAQ />
+      <Testimonial />
     </main>
   );
 }
