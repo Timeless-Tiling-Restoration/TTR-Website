@@ -1,34 +1,34 @@
 export default function Timeline() {
     return (
-        <section class="py-16 overflow-hidden bg-secondary">
-            <div class="container mx-auto px-4">
-                <div class="flex flex-wrap lg:items-center -m-8">
-                    <div class="w-full md:w-1/2 p-8">
-                        <div class="md:max-w-md">
-                            <span class="inline-block mb-4 text-sm font-bold uppercase tracking-widest">How We Quote</span>
-                            <h2 class="font-heading mb-6 text-4xl md:text-5xl tracking-tight">All-in-one, next-gen SaaS experience</h2>
-                            <p class="mb-5 font-bold">Yearly access to all products with ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-                            <div class="flex flex-wrap -m-2">
+        <section className="py-16 overflow-hidden bg-secondary">
+            <div className="container mx-auto px-4">
+                <div className="flex flex-wrap lg:items-center -m-8">
+                    <div className="w-full md:w-1/2 p-8">
+                        <div className="md:max-w-md">
+                            <span className="inline-block mb-4 text-sm font-bold uppercase tracking-widest">How We Quote</span>
+                            <h2 className="font-heading mb-6 text-4xl md:text-5xl tracking-tight text-primary">All-in-one, next-gen SaaS experience</h2>
+                            <p className="mb-5 font-bold">Yearly access to all products with ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                            <div className="flex flex-wrap -m-2">
                                 
-                                <div class="w-full md:w-auto p-2">
-                                    <a class="block w-full px-4 py-2.5 text-sm text-center font-bold bg-secondary hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full" href="#">See Our Work</a>
+                                <div className="w-full md:w-auto p-2">
+                                    <a className="block w-full px-4 py-2.5 text-sm text-center font-bold bg-secondary hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full" href="#">See Our Work</a>
                                 </div>
                                 
                             </div>
                         </div>
                     </div>
-                    <div class="w-full md:w-1/2 p-8">
-                        <div class="relative py-16 px-8 bg-primary overflow-hidden rounded-3xl">
-                            <div class="absolute top-1/2 left-1/2 min-w-max transform -translate-x-1/2 -translate-y-1/2">
-                                <div class="absolute bg-gradient-radial-dark w-full h-full"></div>
+                    <div className="w-full md:w-1/2 p-8">
+                        <div className="relative py-16 px-8 bg-primary overflow-hidden rounded-3xl">
+                            <div className="absolute top-1/2 left-1/2 min-w-max transform -translate-x-1/2 -translate-y-1/2">
+                                <div className="absolute bg-gradient-radial-dark w-full h-full"></div>
                                 <img src="zanrly-assets/images/pattern-dark.png" alt="" />
                             </div>
-                            <div class="relative max-w-md mx-auto">
-                                <div class="flex flex-wrap -m-3">
-                                    <div class="w-full p-3">
-                                        <div class="flex flex-wrap -m-4">
-                                            <div class="flex flex-col items-center w-auto p-4">
-                                                <div class="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-black bg-secondary rounded-full">
+                            <div className="relative max-w-md mx-auto">
+                                <div className="flex flex-wrap -m-3">
+                                    <div className="w-full p-3">
+                                        <div className="flex flex-wrap -m-4">
+                                            <div className="flex flex-col items-center w-auto p-4">
+                                                <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-black bg-secondary rounded-full">
                                                     
                                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M14 16C14 17.77 13.23 19.37 12 20.46C10.94 21.42 9.54 22 8 22C4.69 22 2 19.31 2 16C2 13.9753 3.01397 12.1814 4.5554 11.0973C4.80358 10.9228 5.1393 11.0422 5.27324 11.3145C6.21715 13.2332 7.95419 14.6699 10.02 15.23C10.65 15.41 11.31 15.5 12 15.5C12.4872 15.5 12.9539 15.4538 13.4074 15.3687C13.6958 15.3147 13.9828 15.4995 13.9955 15.7926C13.9985 15.8621 14 15.9314 14 16Z" fill="#3B82F6"></path>
@@ -37,21 +37,21 @@ export default function Timeline() {
                                                     </svg>
 
                                                 </div>
-                                                <div class="w-px h-24 bg-secondary"></div>
+                                                <div className="w-px h-24 bg-secondary"></div>
                                             </div>
                                             
-                                            <div class="flex-1 p-4">
-                                                <h3 class="font-heading mb-3 text-2xl text-secondary font-bold">Connect</h3>
-                                                <p class="text-base-300 font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                            <div className="flex-1 p-4">
+                                                <h3 className="font-heading mb-3 text-2xl text-secondary font-bold">Connect</h3>
+                                                <p className="text-base-300 font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </div>
 
                                         </div>
                                     </div>
 
-                                    <div class="w-full p-3">
-                                        <div class="flex flex-wrap -m-4">
-                                            <div class="flex flex-col items-center w-auto p-4">
-                                                <div class="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-black bg-secondary rounded-full">
+                                    <div className="w-full p-3">
+                                        <div className="flex flex-wrap -m-4">
+                                            <div className="flex flex-col items-center w-auto p-4">
+                                                <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-black bg-secondary rounded-full">
                                                     
                                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M14 16C14 17.77 13.23 19.37 12 20.46C10.94 21.42 9.54 22 8 22C4.69 22 2 19.31 2 16C2 13.9753 3.01397 12.1814 4.5554 11.0973C4.80358 10.9228 5.1393 11.0422 5.27324 11.3145C6.21715 13.2332 7.95419 14.6699 10.02 15.23C10.65 15.41 11.31 15.5 12 15.5C12.4872 15.5 12.9539 15.4538 13.4074 15.3687C13.6958 15.3147 13.9828 15.4995 13.9955 15.7926C13.9985 15.8621 14 15.9314 14 16Z" fill="#3B82F6"></path>
@@ -60,21 +60,21 @@ export default function Timeline() {
                                                     </svg>
 
                                                 </div>
-                                                <div class="w-px h-24 bg-secondary"></div>
+                                                <div className="w-px h-24 bg-secondary"></div>
                                             </div>
                                             
-                                            <div class="flex-1 p-4">
-                                                <h3 class="font-heading mb-3 text-2xl text-secondary font-bold">Connect</h3>
-                                                <p class="text-base-300 font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                            <div className="flex-1 p-4">
+                                                <h3 className="font-heading mb-3 text-2xl text-secondary font-bold">Connect</h3>
+                                                <p className="text-base-300 font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </div>
 
                                         </div>
                                     </div>
 
-                                    <div class="w-full p-3">
-                                        <div class="flex flex-wrap -m-4">
-                                            <div class="flex flex-col items-center w-auto p-4">
-                                                <div class="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-black bg-secondary rounded-full">
+                                    <div className="w-full p-3">
+                                        <div className="flex flex-wrap -m-4">
+                                            <div className="flex flex-col items-center w-auto p-4">
+                                                <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-black bg-secondary rounded-full">
                                                     
                                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M14 16C14 17.77 13.23 19.37 12 20.46C10.94 21.42 9.54 22 8 22C4.69 22 2 19.31 2 16C2 13.9753 3.01397 12.1814 4.5554 11.0973C4.80358 10.9228 5.1393 11.0422 5.27324 11.3145C6.21715 13.2332 7.95419 14.6699 10.02 15.23C10.65 15.41 11.31 15.5 12 15.5C12.4872 15.5 12.9539 15.4538 13.4074 15.3687C13.6958 15.3147 13.9828 15.4995 13.9955 15.7926C13.9985 15.8621 14 15.9314 14 16Z" fill="#3B82F6"></path>
@@ -83,12 +83,11 @@ export default function Timeline() {
                                                     </svg>
 
                                                 </div>
-                                                <div class="md:hidden w-px h-24 bg-gray-700"></div>
                                             </div>
                                             
-                                            <div class="flex-1 p-4">
-                                                <h3 class="font-heading mb-3 text-2xl text-secondary font-bold">Connect</h3>
-                                                <p class="text-base-300 font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                            <div className="flex-1 p-4">
+                                                <h3 className="font-heading mb-3 text-2xl text-secondary font-bold">Connect</h3>
+                                                <p className="text-base-300 font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </div>
 
                                         </div>

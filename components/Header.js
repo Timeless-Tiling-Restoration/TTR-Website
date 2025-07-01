@@ -10,7 +10,7 @@ export default function Header() {
       {/* Content on top */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 py-24 text-black">
         <h2 className="text-3xl md:text-5xl font-bold mb-4 text-accent">
-          Timeless Tile Renovation
+          Timeless Tile Restoration
         </h2>
         <p className="text-lg md:text-xl mb-6">
           Specialising in restoring and revitalising vintage tiles,
