@@ -6,6 +6,7 @@ import Timeline from '../components/Timeline';
 import Gallery from '../components/Gallery';
 import FAQ from '../components/Faq';
 import Testimonial from '../components/Testimonial';
+import ContactUs from '../components/ContactUs';
 
 export default function HomePage() {
   const imagesDir = `${process.cwd()}/public/images/photos`;
@@ -27,6 +28,7 @@ export default function HomePage() {
       <Gallery images={images} />
       <FAQ />
       <Testimonial />
+      <ContactUs />
     </main>
   );
 }
