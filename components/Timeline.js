@@ -1,6 +1,6 @@
 export default function Timeline() {
     return (
-        <section className="py-16 overflow-hidden bg-secondary">
+        <section className="py-16 overflow-hidden bg-secondary" id="quotes">
             <div className="container mx-auto px-4">
                 <div className="flex flex-wrap lg:items-center -m-8">
                     <div className="w-full md:w-1/2 p-8">
@@ -11,7 +11,7 @@ export default function Timeline() {
                             <div className="flex flex-wrap -m-2">
                                 
                                 <div className="w-full md:w-auto p-2">
-                                    <a className="block w-full px-4 py-2.5 text-sm text-center font-bold bg-secondary hover:bg-primary-600 focus:ring-4 focus:ring-primary-200 rounded-full" href="#">See Our Work</a>
+                                    <a className="block w-full px-4 py-2.5 text-sm text-center font-bold bg-secondary hover:bg-primary-600 focus:ring-4 focus:ring-primary-200 rounded-full" href="#past-work">See Our Work</a>
                                 </div>
                                 
                             </div>

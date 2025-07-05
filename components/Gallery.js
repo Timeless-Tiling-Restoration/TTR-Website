@@ -56,7 +56,7 @@ export default function Gallery({ images }) {
 
   return (
     <>
-      <section className="py-16 overflow-hidden bg-secondary">
+      <section className="py-16 overflow-hidden bg-secondary" id="past-work">
         <div className="container mx-auto px-4 text-center">
           <h2 className="font-heading mb-6 text-4xl md:text-5xl tracking-tight text-primary">
             Our Past Work

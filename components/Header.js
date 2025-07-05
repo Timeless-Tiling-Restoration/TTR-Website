@@ -16,7 +16,7 @@ export default function Header() {
           Specialising in restoring and revitalising vintage tiles,
           breathing new life into historic surfaces while preserving their unique charm.
         </p>
-        <a href="#get-started" className="btn btn-primary">
+        <a href="#quotes" className="btn btn-primary">
           Get Started
         </a>
       </div>

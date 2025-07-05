@@ -81,7 +81,7 @@ export default function FAQ() {
                         <h2 className="font-heading mb-6 text-4xl md:text-5xl tracking-tight text-primary">Frequently Asked Questions</h2>
                         <p className="mb-5 font-bold">Yearly access to all products with ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
                         <Link
-                            href="/contact"
+                            href="#contact-us"
                             className="inline-flex items-center justify-center gap-2 py-3 px-5 h-12 rounded-full bg-primary hover:bg-primary-800 focus:ring focus:ring-primary-800 transition duration-200 text-white font-semibold text-sm"
                         >
                             <svg
