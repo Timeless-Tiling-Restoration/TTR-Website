@@ -82,7 +82,7 @@ export default function FAQ() {
                         <p className="mb-5 font-bold">Yearly access to all products with ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
                         <Link
                             href="/contact"
-                            className="inline-flex items-center justify-center gap-2 py-3 px-5 h-12 rounded-full bg-purple-900 border border-purple-700 hover:bg-purple-800 focus:ring focus:ring-purple-800 transition duration-200 text-white font-semibold text-sm"
+                            className="inline-flex items-center justify-center gap-2 py-3 px-5 h-12 rounded-full bg-primary hover:bg-primary-800 focus:ring focus:ring-primary-800 transition duration-200 text-white font-semibold text-sm"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"

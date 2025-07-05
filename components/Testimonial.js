@@ -106,7 +106,7 @@ export default function Testimonial() {
           </svg>
         </button>
 
-        <div className="flex flex-wrap lg:items-center -m-8">
+        <div className="flex flex-wrap lg:items-center -m-4">
           {/* Image Column */}
           <div className="w-full md:w-1/2 p-8">
             <div

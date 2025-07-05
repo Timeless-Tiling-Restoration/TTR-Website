@@ -104,13 +104,13 @@ export default function Gallery({ images }) {
               onClick={closeModal}
             >
               <div
-                className="relative bg-white rounded-lg p-4 max-w-3xl max-h-full overflow-auto"
+                className="relative bg-secondary rounded-lg p-4 max-w-3xl max-h-full overflow-auto"
                 onClick={(e) => e.stopPropagation()}
               >
                 <button
                   onClick={closeModal}
                   aria-label="Close modal"
-                  className="absolute top-2 right-2 text-gray-700 hover:text-gray-900 text-2xl leading-none"
+                  className="absolute top-2 right-4 text-white hover:text-white-400 text-4xl leading-none"
                 >
                   &times;
                 </button>

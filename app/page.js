@@ -23,12 +23,12 @@ export default function HomePage() {
 
   return (
     <main>
-      <Header />
-      <Timeline />
-      <Gallery images={images} />
-      <FAQ />
-      <Testimonial />
-      <ContactUs />
+        <Header />
+        <Timeline />
+        <Gallery images={images} />
+        <FAQ />
+        <Testimonial />
+        <ContactUs />
     </main>
   );
 }
