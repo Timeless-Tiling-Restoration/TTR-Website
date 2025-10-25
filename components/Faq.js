@@ -14,12 +14,12 @@ const faqs = [
         answer:
             'The timeline for restoration varies depending on the number of tiles and the extent of damage. Generally, it can take anywhere from a few days to several weeks. We\'ll provide a clear timeline during our initial assessment.',
     },
-        {
+    {
         question: 'How do I care for my restored tiles?',
         answer:
             'After restoration, we recommend specific cleaning and maintenance practices to ensure the longevity of your tiles. Our team will provide guidelines tailored to your tiles\' materials. ',
     },
-        {
+    {
         question: 'How can I get in touch with you? ',
         answer:
             'You can contact us through our website, by phone, or via email. We\'re here to answer any questions and assist you with your tile restoration needs!',

@@ -8,11 +8,11 @@ export default function Timeline() {
                             <h2 className="font-heading mb-6 text-4xl md:text-5xl tracking-tight text-primary">How We Quote</h2>
                             <p className="mb-5 font-bold">Our quoting process begins with understanding your restoration needs, followed by a clear and detailed proposal that outlines the scope, methods, and pricing so we can move forward with confidence together.</p>
                             <div className="flex flex-wrap -m-2">
-                                
+
                                 <div className="w-full md:w-auto p-2">
                                     <a className="block w-full px-4 py-2.5 text-sm text-center font-bold bg-secondary hover:bg-primary-600 focus:ring-4 focus:ring-primary-200 rounded-full" href="#past-work">See Our Work</a>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ export default function Timeline() {
                                         <div className="flex flex-wrap -m-4">
                                             <div className="flex flex-col items-center w-auto p-4">
                                                 <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-black bg-secondary rounded-full">
-                                                    
+
                                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M14 16C14 17.77 13.23 19.37 12 20.46C10.94 21.42 9.54 22 8 22C4.69 22 2 19.31 2 16C2 13.9753 3.01397 12.1814 4.5554 11.0973C4.80358 10.9228 5.1393 11.0422 5.27324 11.3145C6.21715 13.2332 7.95419 14.6699 10.02 15.23C10.65 15.41 11.31 15.5 12 15.5C12.4872 15.5 12.9539 15.4538 13.4074 15.3687C13.6958 15.3147 13.9828 15.4995 13.9955 15.7926C13.9985 15.8621 14 15.9314 14 16Z" fill="#3B82F6"></path>
                                                         <path d="M18 8C18 8.78 17.85 9.53 17.58 10.21C16.89 11.95 15.41 13.29 13.58 13.79C13.08 13.93 12.55 14 12 14C11.45 14 10.92 13.93 10.42 13.79C8.59 13.29 7.11 11.95 6.42 10.21C6.15 9.53 6 8.78 6 8C6 4.69 8.69 2 12 2C15.31 2 18 4.69 18 8Z" fill="#3B82F6"></path>
@@ -38,7 +38,7 @@ export default function Timeline() {
                                                 </div>
                                                 <div className="w-px h-24 bg-secondary"></div>
                                             </div>
-                                            
+
                                             <div className="flex-1 p-4">
                                                 <h3 className="font-heading mb-3 text-2xl text-secondary font-bold">Quotation</h3>
                                                 <p className="text-base-300 font-bold">We provide a detailed, transparent quotation that outlinesthe scope, materials, and cost involved.</p>
@@ -51,7 +51,7 @@ export default function Timeline() {
                                         <div className="flex flex-wrap -m-4">
                                             <div className="flex flex-col items-center w-auto p-4">
                                                 <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-black bg-secondary rounded-full">
-                                                    
+
                                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M14 16C14 17.77 13.23 19.37 12 20.46C10.94 21.42 9.54 22 8 22C4.69 22 2 19.31 2 16C2 13.9753 3.01397 12.1814 4.5554 11.0973C4.80358 10.9228 5.1393 11.0422 5.27324 11.3145C6.21715 13.2332 7.95419 14.6699 10.02 15.23C10.65 15.41 11.31 15.5 12 15.5C12.4872 15.5 12.9539 15.4538 13.4074 15.3687C13.6958 15.3147 13.9828 15.4995 13.9955 15.7926C13.9985 15.8621 14 15.9314 14 16Z" fill="#3B82F6"></path>
                                                         <path d="M18 8C18 8.78 17.85 9.53 17.58 10.21C16.89 11.95 15.41 13.29 13.58 13.79C13.08 13.93 12.55 14 12 14C11.45 14 10.92 13.93 10.42 13.79C8.59 13.29 7.11 11.95 6.42 10.21C6.15 9.53 6 8.78 6 8C6 4.69 8.69 2 12 2C15.31 2 18 4.69 18 8Z" fill="#3B82F6"></path>
@@ -61,7 +61,7 @@ export default function Timeline() {
                                                 </div>
                                                 <div className="w-px h-24 bg-secondary"></div>
                                             </div>
-                                            
+
                                             <div className="flex-1 p-4">
                                                 <h3 className="font-heading mb-3 text-2xl text-secondary font-bold">On-Site Evaluation</h3>
                                                 <p className="text-base-300 font-bold">we visit your space to assess the tiles firsthand, allowing us to fully understand their condition and heritage.</p>
@@ -74,7 +74,7 @@ export default function Timeline() {
                                         <div className="flex flex-wrap -m-4">
                                             <div className="flex flex-col items-center w-auto p-4">
                                                 <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-black bg-secondary rounded-full">
-                                                    
+
                                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M14 16C14 17.77 13.23 19.37 12 20.46C10.94 21.42 9.54 22 8 22C4.69 22 2 19.31 2 16C2 13.9753 3.01397 12.1814 4.5554 11.0973C4.80358 10.9228 5.1393 11.0422 5.27324 11.3145C6.21715 13.2332 7.95419 14.6699 10.02 15.23C10.65 15.41 11.31 15.5 12 15.5C12.4872 15.5 12.9539 15.4538 13.4074 15.3687C13.6958 15.3147 13.9828 15.4995 13.9955 15.7926C13.9985 15.8621 14 15.9314 14 16Z" fill="#3B82F6"></path>
                                                         <path d="M18 8C18 8.78 17.85 9.53 17.58 10.21C16.89 11.95 15.41 13.29 13.58 13.79C13.08 13.93 12.55 14 12 14C11.45 14 10.92 13.93 10.42 13.79C8.59 13.29 7.11 11.95 6.42 10.21C6.15 9.53 6 8.78 6 8C6 4.69 8.69 2 12 2C15.31 2 18 4.69 18 8Z" fill="#3B82F6"></path>
@@ -83,7 +83,7 @@ export default function Timeline() {
 
                                                 </div>
                                             </div>
-                                            
+
                                             <div className="flex-1 p-4">
                                                 <h3 className="font-heading mb-3 text-2xl text-secondary font-bold">Let's Restore it!</h3>
                                                 <p className="text-base-300 font-bold">With your approval, we begin the transformation. Restoring your tiles to their original beauty.</p>
