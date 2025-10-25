@@ -28,16 +28,13 @@ export default function Navbar() {
                 {/* Desktop nav + phone */}
                 <div className="hidden lg:flex lg:items-center lg:space-x-8">
                     <nav className="flex items-center space-x-6">
-                        <a href="#" className="text-base font-medium hover:text-primary whitespace-nowrap">
+                        <a href="#AboutUs" className="text-base font-medium hover:text-primary whitespace-nowrap">
                             About Us
                         </a>
-                        <a href="#" className="text-base font-medium hover:text-primary whitespace-nowrap">
-                            Our Service
-                        </a>
-                        <a href="#" className="text-base font-medium hover:text-primary whitespace-nowrap">
+                        <a href="#past-work" className="text-base font-medium hover:text-primary whitespace-nowrap">
                             Our Work
                         </a>
-                        <a href="#" className="text-base font-medium hover:text-primary whitespace-nowrap">
+                        <a href="#contact-us" className="text-base font-medium hover:text-primary whitespace-nowrap">
                             Contact Us
                         </a>
                     </nav>
@@ -97,16 +94,13 @@ export default function Navbar() {
             {isOpen && (
                 <div className="lg:hidden bg-secondary px-4 pb-5 space-y-4">
                     <nav className="flex flex-col space-y-3">
-                        <a href="#" className="text-base font-medium hover:text-primary">
+                        <a href="#AboutUs" className="text-base font-medium hover:text-primary">
                             About Us
                         </a>
-                        <a href="#" className="text-base font-medium hover:text-primary">
+                        <a href="#past-work" className="text-base font-medium hover:text-primary">
                             Our Service
                         </a>
-                        <a href="#" className="text-base font-medium hover:text-primary">
-                            Our Work
-                        </a>
-                        <a href="#" className="text-base font-medium hover:text-primary">
+                        <a href="#contact-us" className="text-base font-medium hover:text-primary">
                             Contact Us
                         </a>
                     </nav>

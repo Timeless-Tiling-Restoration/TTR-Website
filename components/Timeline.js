@@ -5,9 +5,8 @@ export default function Timeline() {
                 <div className="flex flex-wrap lg:items-center -m-8">
                     <div className="w-full md:w-1/2 p-8">
                         <div className="md:max-w-md">
-                            <span className="inline-block mb-4 text-sm font-bold uppercase tracking-widest">How We Quote</span>
-                            <h2 className="font-heading mb-6 text-4xl md:text-5xl tracking-tight text-primary">All-in-one, next-gen SaaS experience</h2>
-                            <p className="mb-5 font-bold">Yearly access to all products with ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                            <h2 className="font-heading mb-6 text-4xl md:text-5xl tracking-tight text-primary">How We Quote</h2>
+                            <p className="mb-5 font-bold">Our quoting process begins with understanding your restoration needs, followed by a clear and detailed proposal that outlines the scope, methods, and pricing so we can move forward with confidence together.</p>
                             <div className="flex flex-wrap -m-2">
                                 
                                 <div className="w-full md:w-auto p-2">
@@ -41,8 +40,8 @@ export default function Timeline() {
                                             </div>
                                             
                                             <div className="flex-1 p-4">
-                                                <h3 className="font-heading mb-3 text-2xl text-secondary font-bold">Connect</h3>
-                                                <p className="text-base-300 font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                <h3 className="font-heading mb-3 text-2xl text-secondary font-bold">Quotation</h3>
+                                                <p className="text-base-300 font-bold">We provide a detailed, transparent quotation that outlinesthe scope, materials, and cost involved.</p>
                                             </div>
 
                                         </div>
@@ -64,8 +63,8 @@ export default function Timeline() {
                                             </div>
                                             
                                             <div className="flex-1 p-4">
-                                                <h3 className="font-heading mb-3 text-2xl text-secondary font-bold">Connect</h3>
-                                                <p className="text-base-300 font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                <h3 className="font-heading mb-3 text-2xl text-secondary font-bold">On-Site Evaluation</h3>
+                                                <p className="text-base-300 font-bold">we visit your space to assess the tiles firsthand, allowing us to fully understand their condition and heritage.</p>
                                             </div>
 
                                         </div>
@@ -86,8 +85,8 @@ export default function Timeline() {
                                             </div>
                                             
                                             <div className="flex-1 p-4">
-                                                <h3 className="font-heading mb-3 text-2xl text-secondary font-bold">Connect</h3>
-                                                <p className="text-base-300 font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                <h3 className="font-heading mb-3 text-2xl text-secondary font-bold">Let's Restore it!</h3>
+                                                <p className="text-base-300 font-bold">With your approval, we begin the transformation. Restoring your tiles to their original beauty.</p>
                                             </div>
 
                                         </div>

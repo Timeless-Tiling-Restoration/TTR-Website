@@ -6,7 +6,7 @@ const infoData = {
         lines: ['Greater Melbourne Area', 'Victoria'],
     },
     socials: [
-        {
+        {/*
             href: '#',
             label: 'Facebook',
             icon: (
@@ -24,23 +24,9 @@ const infoData = {
 
                 </svg>
             ),
-        },
+        */},
         {
-            href: '#',
-            label: 'TikTok',
-            icon: (
-                <svg
-                    fill="currentColor"
-                    viewBox="0 0 32 32"
-                    className="w-6 h-6 text-white"
-                    xmlns="http://www.w3.org/2000/svg"
-                >
-                    <path d="M16.656 1.029c1.637-0.025 3.262-0.012 4.886-0.025 0.054 2.031 0.878 3.859 2.189 5.213l-0.002-0.002c1.411 1.271 3.247 2.095 5.271 2.235l0.028 0.002v5.036c-1.912-0.048-3.71-0.489-5.331-1.247l0.082 0.034c-0.784-0.377-1.447-0.764-2.077-1.196l0.052 0.034c-0.012 3.649 0.012 7.298-0.025 10.934-0.103 1.853-0.719 3.543-1.707 4.954l0.020-0.031c-1.652 2.366-4.328 3.919-7.371 4.011l-0.014 0c-0.123 0.006-0.268 0.009-0.414 0.009-1.73 0-3.347-0.482-4.725-1.319l0.040 0.023c-2.508-1.509-4.238-4.091-4.558-7.094l-0.004-0.041c-0.025-0.625-0.037-1.25-0.012-1.862 0.49-4.779 4.494-8.476 9.361-8.476 0.547 0 1.083 0.047 1.604 0.136l-0.056-0.008c0.025 1.849-0.050 3.699-0.050 5.548-0.423-0.153-0.911-0.242-1.42-0.242-1.868 0-3.457 1.194-4.045 2.861l-0.009 0.030c-0.133 0.427-0.21 0.918-0.21 1.426 0 0.206 0.013 0.41 0.037 0.61l-0.002-0.024c0.332 2.046 2.086 3.59 4.201 3.59 0.061 0 0.121-0.001 0.181-0.004l-0.009 0c1.463-0.044 2.733-0.831 3.451-1.994l0.010-0.018c0.267-0.372 0.45-0.822 0.511-1.311l0.001-0.014c0.125-2.237 0.075-4.461 0.087-6.698 0.012-5.036-0.012-10.060 0.025-15.083z"></path>
-                </svg>
-            ),
-        },
-        {
-            href: '#',
+            href: 'https://www.instagram.com/timelesstilerestoration?igsh=cWJmOTBzcXNxM3dr',
             label: 'Instagram',
             icon: (
                 <svg
@@ -55,6 +41,20 @@ const infoData = {
                 </svg>
             ),
         },
+        {/*
+            href: '#',
+            label: 'TikTok',
+            icon: (
+                <svg
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                    className="w-6 h-6 text-white"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path d="M16.656 1.029c1.637-0.025 3.262-0.012 4.886-0.025 0.054 2.031 0.878 3.859 2.189 5.213l-0.002-0.002c1.411 1.271 3.247 2.095 5.271 2.235l0.028 0.002v5.036c-1.912-0.048-3.71-0.489-5.331-1.247l0.082 0.034c-0.784-0.377-1.447-0.764-2.077-1.196l0.052 0.034c-0.012 3.649 0.012 7.298-0.025 10.934-0.103 1.853-0.719 3.543-1.707 4.954l0.020-0.031c-1.652 2.366-4.328 3.919-7.371 4.011l-0.014 0c-0.123 0.006-0.268 0.009-0.414 0.009-1.73 0-3.347-0.482-4.725-1.319l0.040 0.023c-2.508-1.509-4.238-4.091-4.558-7.094l-0.004-0.041c-0.025-0.625-0.037-1.25-0.012-1.862 0.49-4.779 4.494-8.476 9.361-8.476 0.547 0 1.083 0.047 1.604 0.136l-0.056-0.008c0.025 1.849-0.050 3.699-0.050 5.548-0.423-0.153-0.911-0.242-1.42-0.242-1.868 0-3.457 1.194-4.045 2.861l-0.009 0.030c-0.133 0.427-0.21 0.918-0.21 1.426 0 0.206 0.013 0.41 0.037 0.61l-0.002-0.024c0.332 2.046 2.086 3.59 4.201 3.59 0.061 0 0.121-0.001 0.181-0.004l-0.009 0c1.463-0.044 2.733-0.831 3.451-1.994l0.010-0.018c0.267-0.372 0.45-0.822 0.511-1.311l0.001-0.014c0.125-2.237 0.075-4.461 0.087-6.698 0.012-5.036-0.012-10.060 0.025-15.083z"></path>
+                </svg>
+            ),
+        */},
     ],
 };
 
@@ -67,14 +67,14 @@ export default function ContactUs() {
                 {/* Header */}
                 <div className="max-w-2xl mx-auto mb-12 lg:mb-20 text-center">
                     <h2 className="font-heading mb-6 text-4xl md:text-5xl tracking-tight text-primary">Ready to revetilise your tiles?</h2>
-                    <p className="mb-5 font-bold">Yearly access to all products with ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    <p className="mb-5 font-bold"></p>
                 </div>
 
                 {/* Content Sections */}
                 <div className="flex flex-wrap -mx-4">
                     {/* Socials */}
                     <div className="w-full lg:w-1/3 px-4 mb-4 lg:mb-0">
-                    <div className="py-12 h-full border text-center rounded-xl bg-primary text-secondary">
+                        <div className="py-12 h-full border text-center rounded-xl bg-primary text-secondary">
                             <h3 className="mb-7 text-2xl font-semibold font-heading">Socials</h3>
                             <div className="flex flex-wrap items-end justify-center">
                                 {socials.map(({ href, icon, label }, idx) => (
@@ -93,20 +93,20 @@ export default function ContactUs() {
 
                     {/* Contacts  */}
                     <div className="w-full lg:w-1/3 px-4 mb-4 lg:mb-0">
-                    <div className="py-12 h-full border text-center rounded-xl bg-primary text-secondary">
+                        <div className="py-12 h-full border text-center rounded-xl bg-primary text-secondary">
                             <h3 className="mb-6 text-2xl font-semibold font-heading">Contacts</h3>
                             <a className="btn btn-primary items-center space-x-2 flex" href="tel:0411669974">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                                 </svg>
-                                <span>Call Stef on:  0411 669 974</span>
+                                <span>0411 669 974</span>
                             </a>
 
-                            <a className="btn btn-primary items-center space-x-2 flex" href="mailto:stefcraven1999@gmail.com">
+                            <a className="btn btn-primary items-center space-x-2 flex" href="mailto:max@timelesstilerestoration.com.au">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                                 </svg>
-                                <span>Email Stef at: stefcraven1999@gmail.com</span>
+                                <span>max@timelesstilerestoration.com.au</span>
                             </a>
                         </div>
 

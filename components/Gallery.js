@@ -86,9 +86,6 @@ export default function Gallery({ images }) {
             Our Past Work
           </h2>
           <p className="mb-5 font-bold">
-            Yearly access to all products with ipsum dolor sit amet,
-            consectetur adipiscing elit. Suspendisse varius enim in eros
-            elementum tristique.
           </p>
 
           {/* gallery grid with fade/slide on mount & page change */}

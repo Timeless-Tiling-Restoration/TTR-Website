@@ -6,19 +6,11 @@ import Image from 'next/image'
 const reviews = [
   {
     id: 1,
-    imageSrc: '/images/photos/20241113_123339.jpg',
+    imageSrc: '/images/photos/20251004_175513.jpg',
     imageAlt: 'Customer testimonial image',
-    quote: `“Ex labore incididunt magna et. Velit velit nostrud duis occaecat magna laboris. Non exercitation consequat labore et ex tempor amet ea voluptate veniam. Esse est sunt quis ipsum non exercitation.”`,
-    author: 'Cameron Price',
-    role: 'Art Director, Company',
-  },
-  {
-    id: 2,
-    imageSrc: '/images/photos/20241028_134540.jpg',
-    imageAlt: 'Customer testimonial image',
-    quote: `“Since I started using @Basko, our result has skyrocketed! The user interface is so intuitive and easy to navigate, and the features are exactly what I need.”`,
-    author: 'Cameron Price',
-    role: 'Art Director, Company',
+    quote: `“We are very happy with our restored verandah. Steph (Max) did an amazing job - so careful and skillful and artistic. Thank you!”`,
+    author: 'Catherine I.',
+    role: 'Greater Melbourne, VIC',
   },
 ]
 
@@ -78,7 +70,6 @@ export default function Testimonial() {
           What Our Customer Had to Say...
         </h2>
         <p className="mb-5 font-bold">
-          Excepteur enim eiusmod id ex minim proident magna culpa ipsum.
         </p>
 
         {/* Left arrow */}

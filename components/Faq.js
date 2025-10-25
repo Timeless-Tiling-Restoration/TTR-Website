@@ -5,30 +5,26 @@ import Link from 'next/link'
 
 const faqs = [
     {
-        question: 'What is Solstice? What is it for?',
+        question: 'My verandah has a lot of chipped and broken tiles, can it still be restored?',
         answer:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et tincidunt est. Duis odio eros, mattis id elit vitae, molestie tempus massa. Vestibulum varius risus quis erat egestas, et tincidunt metus vestibulum.',
+            'We have a large inventory of spare original tiles to replace the damaged ones. Some tiles are rarer than others, and anything we don\'t have in stock we will do our best to replicate or find something similar to use instead.  ',
     },
     {
-        question: 'What steps do I need to take to join?',
+        question: 'How long does the restoration process take? ',
         answer:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et tincidunt est. Duis odio eros, mattis id elit vitae, molestie tempus massa. Vestibulum varius risus quis erat egestas, et tincidunt metus vestibulum.',
+            'The timeline for restoration varies depending on the number of tiles and the extent of damage. Generally, it can take anywhere from a few days to several weeks. We\'ll provide a clear timeline during our initial assessment.',
     },
-    {
-        question: 'Do you facilitate any regular events or offer rooms for group discussions?',
+        {
+        question: 'How do I care for my restored tiles?',
         answer:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et tincidunt est. Duis odio eros, mattis id elit vitae, molestie tempus massa. Vestibulum varius risus quis erat egestas, et tincidunt metus vestibulum.',
+            'After restoration, we recommend specific cleaning and maintenance practices to ensure the longevity of your tiles. Our team will provide guidelines tailored to your tiles\' materials. ',
     },
-    {
-        question: 'Is there a particular subject I should focus on learning?',
+        {
+        question: 'How can I get in touch with you? ',
         answer:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et tincidunt est. Duis odio eros, mattis id elit vitae, molestie tempus massa. Vestibulum varius risus quis erat egestas, et tincidunt metus vestibulum.',
+            'You can contact us through our website, by phone, or via email. We\'re here to answer any questions and assist you with your tile restoration needs!',
     },
-    {
-        question: 'Can I make it a fun group study session by inviting my buddies?',
-        answer:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et tincidunt est. Duis odio eros, mattis id elit vitae, molestie tempus massa. Vestibulum varius risus quis erat egestas, et tincidunt metus vestibulum.',
-    },
+
 ]
 
 function FAQItem({ question, answer }) {
@@ -79,7 +75,7 @@ export default function FAQ() {
                     {/* Left column */}
                     <div className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
                         <h2 className="font-heading mb-6 text-4xl md:text-5xl tracking-tight text-primary">Frequently Asked Questions</h2>
-                        <p className="mb-5 font-bold">Yearly access to all products with ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                        <p className="mb-5 font-bold">We understand you may have questions about the restoration process, and we're here to help. Whether it's replacing chipped tiles, understanding the timeline, caring for your restored surfaces, or simply getting in touch, we aim to make everything clear and accessible. Our team offers expert guidance, personalised care advice, and open communication every step of the way.</p>
                         <Link
                             href="#contact-us"
                             className="inline-flex items-center justify-center gap-2 py-3 px-5 h-12 rounded-full bg-primary hover:bg-primary-800 focus:ring focus:ring-primary-800 transition duration-200 text-white font-semibold text-sm"
